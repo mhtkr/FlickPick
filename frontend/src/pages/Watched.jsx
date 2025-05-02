@@ -54,7 +54,7 @@ const Watched = () => {
   return (
     <div className="p-6 bg-[#0B192C] text-white min-h-screen">
       <div>
-        <h1 className="text-3xl font-bold mb-6 bg-[#1E3E62] rounded-full px-5 py-3 max-w-fit">
+        <h1 className="text-3xl font-bold mb-6 text-[#FF6500] bg-[#1E3E62] rounded-full px-5 py-3 max-w-fit">
           Watched Movies
         </h1>
       </div>

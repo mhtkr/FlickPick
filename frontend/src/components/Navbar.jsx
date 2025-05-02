@@ -50,7 +50,7 @@ function Navbar() {
                   <Link
                     to={genre.path}
                     onClick={() => setIsOpen(false)}
-                    className="block px-4 py-2 hover:text-[#FF6500] hover:bg-[#163252] transition duration-150"
+                    className="block px-4 py-2 rounded-xl hover:text-[#FF6500] hover:bg-[#163252] transition duration-150"
                   >
                     {genre.name}
                   </Link>

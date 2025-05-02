@@ -28,7 +28,7 @@ function GenrePage() {
 
   return (
     <div className="min-h-screen px-6 py-8 text-white bg-[#0B192C]">
-      <h1 className="text-4xl font-bold mb-8 capitalize text-center">
+      <h1 className="text-3xl font-bold mb-6 text-[#FF6500] bg-[#1E3E62] rounded-full px-5 py-3 max-w-fit capitalize">
         {genre} Movies
       </h1>
 
