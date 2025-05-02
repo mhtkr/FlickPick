@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import GenrePage from './pages/GenrePage';
 
 const router = createBrowserRouter([
   {
@@ -63,6 +64,16 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <Signup />
+      </>
+    ),
+  },
+  {
+    path: "/genre/:genre",
+    element: (
+      <>
+        <Navbar />
+        <GenrePage />
+        <Footer />
       </>
     ),
   },

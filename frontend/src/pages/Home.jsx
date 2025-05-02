@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
 import axios from "axios";
 import noPoster from "../assets/no_poster.png";
 import Footer from "../components/Footer";

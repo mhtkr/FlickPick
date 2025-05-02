@@ -26,7 +26,7 @@ router.get("/genre/:genre", async (req, res) => {
     const movies = await Movie.find({
       genres: { $in: [new RegExp(`^${genreParam}$`, "i")] }
     })
-      .limit(35)
+      .limit(50)
       .sort({ "year": -1 });
 
     if (!movies.length) {
